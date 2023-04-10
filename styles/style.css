@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color: #25b79f;
+  background-color:aliceblue;
   height: 100vh;
 }
 
@@ -103,12 +103,12 @@ header {
 /* ////........About Me........//// */
 
 .about-me {
-  background-color: #07374a;
+  background-color: #D785D3;
   padding: 6rem 0;
 }
 
 .about-me .about-heading {
-  color: #25b79f;
+  color: aliceblue;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -131,7 +131,7 @@ header {
 .skills .skills-heading {
   font-size: 2rem;
   font-weight: 600;
-  color: #25b79f;
+  color:aliceblue;
   text-align: center;
 }
 
@@ -182,7 +182,7 @@ header {
 
 .bar .progress-line span {
   position: absolute;
-  background: #25b79f;
+  background: #07374a;
   height: 100%;
   border-radius: 10px;
   transform: scaleX(0);
@@ -280,7 +280,7 @@ header {
 .work-arrow a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  color: #07374a;
 }
 
 .work-arrow-2 {
@@ -290,20 +290,20 @@ header {
 .work-arrow-2 a {
   font-size: 1rem;
   text-decoration: none;
-  color: #25b79f;
+  color: #07374a;
   display: none;
 }
 
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: #25b79f;
+  background: aliceblue;
   padding: 6rem 0;
 }
 
 .proj-heading h1 {
   text-align: center;
-  color: #07374a;
+  color: #000000;
   font-size: 2.3rem;
   font-weight: 700;
   margin: 3rem 0;
@@ -472,7 +472,7 @@ header {
 /* ////......Contact......///// */
 
 .contact {
-  background: #07374a;
+  background: #D785D3;
   position: relative;
   height: 92vh;
 }
@@ -488,7 +488,7 @@ header {
 .contact-content h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  color: #25b79f;
+  color: whitesmoke;
   padding-bottom: 0.5rem;
 }
 
@@ -499,7 +499,7 @@ header {
 }
 
 .contact-content .links {
-  color: #25b79f;
+  color: whitesmoke;
   padding: 0.5rem;
   padding-bottom: 1.8rem;
   font-size: 1rem;
@@ -507,7 +507,7 @@ header {
 
 .contact-content a {
   text-decoration: none;
-  color: #25b79f;
+  color:whitesmoke ;
   padding: 0.5rem;
   transition: 0.3s ease-in-out;
 }
@@ -575,7 +575,7 @@ header {
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #25b79f;
+    color: whitesmoke;
     display: block;
     text-align: center;
   }
@@ -642,7 +642,7 @@ header {
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #25b79f;
+    color: #D785D3;
     display: block;
     text-align: center;
   }
