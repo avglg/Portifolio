@@ -47,7 +47,7 @@ header {
 
 .menu-items a {
   text-decoration: none;
-  color: #f0f0e6;
+  color:#07374a ;
   font-size: 1.2rem;
   padding: 0.3rem;
 }
@@ -80,7 +80,7 @@ header {
 }
 
 .home-content .name p {
-  color: #f0f0e6;
+  color:#07374a ;
   font-size: 1.5rem;
 }
 
@@ -103,12 +103,12 @@ header {
 /* ////........About Me........//// */
 
 .about-me {
-  background-color: #D785D3;
+  background-color: #f5f5dc;
   padding: 6rem 0;
 }
 
 .about-me .about-heading {
-  color: aliceblue;
+  color: #07374a;
   font-size: 2rem;
   font-weight: 600;
   text-align: center;
@@ -123,7 +123,7 @@ header {
 
 .about-content p {
   font-size: 1.2rem;
-  color: #f0f0e6;
+  color:#07374a ;
   padding: 0 2.3rem;
   text-align: center;
 }
@@ -131,7 +131,7 @@ header {
 .skills .skills-heading {
   font-size: 2rem;
   font-weight: 600;
-  color:aliceblue;
+  color: #07374a;
   text-align: center;
 }
 
@@ -197,20 +197,20 @@ header {
 }
 
 .progress-line .html {
-  width: 80%;
-}
-.progress-line .css {
   width: 70%;
 }
-.progress-line .bootstrap {
-  width: 50%;
+.progress-line .css {
+  width: 65%;
+}
+.progress-line .mysql {
+  width: 30%;
 }
 .progress-line .javascript {
-  width: 50%;
+  width: 40%;
 }
-.progress-line .c {
+/* .progress-line .c {
   width: 50%;
-}
+} */
 
 .bar .progress-line span::before {
   position: absolute;
@@ -239,20 +239,20 @@ header {
 }
 
 .progress-line .html::after {
-  content: "80%";
-}
-.progress-line .css::after {
   content: "70%";
 }
-.progress-line .bootstrap::after {
-  content: "50%";
+.progress-line .css::after {
+  content: "65%";
+}
+.progress-line .mysql::after {
+  content: "30%";
 }
 .progress-line .javascript::after {
-  content: "50%";
+  content: "40%";
 }
-.progress-line .c::after {
+/* .progress-line .c::after {
   content: "50%";
-}
+} */
 
 .navbar.solid {
   background-color: #07374a;
@@ -303,7 +303,7 @@ header {
 
 .proj-heading h1 {
   text-align: center;
-  color: #000000;
+  color:#07374a ;
   font-size: 2.3rem;
   font-weight: 700;
   margin: 3rem 0;
@@ -472,7 +472,7 @@ header {
 /* ////......Contact......///// */
 
 .contact {
-  background: #D785D3;
+  background: #f5f5dc;
   position: relative;
   height: 92vh;
 }
@@ -488,18 +488,18 @@ header {
 .contact-content h2 {
   font-size: 2.5rem;
   font-weight: 400;
-  color: whitesmoke;
+  color: #07374a;
   padding-bottom: 0.5rem;
 }
 
 .contact-content .mail {
-  color: #f0f0e6;
+  color:#07374a ;
   padding-bottom: 0.2rem;
   font-size: 1rem;
 }
 
 .contact-content .links {
-  color: whitesmoke;
+  color: #07374a;
   padding: 0.5rem;
   padding-bottom: 1.8rem;
   font-size: 1rem;
@@ -507,13 +507,13 @@ header {
 
 .contact-content a {
   text-decoration: none;
-  color:whitesmoke ;
+  color:#07374a ;
   padding: 0.5rem;
   transition: 0.3s ease-in-out;
 }
 
 .contact-content a:hover {
-  color: #f0f0e6;
+  color: #07374a;
 }
 
 /* ////......Media query......//// */
@@ -642,7 +642,7 @@ header {
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #D785D3;
+    color: #07374a;
     display: block;
     text-align: center;
   }
@@ -691,7 +691,7 @@ header {
   .work-arrow-2 a {
     font-size: 1.3rem;
     text-decoration: none;
-    color: #25b79f;
+    color: #07374a;
     display: block;
     text-align: center;
   }
