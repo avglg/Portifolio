@@ -11,7 +11,7 @@ body {
 }
 
 header {
-  background-color:aliceblue;
+  background-color:#989A91;
   height: 100vh;
 }
 
@@ -63,6 +63,70 @@ header {
 }
 
 /* ////........Home Content........//// */
+
+#toggle {
+  display: flex;
+
+  position: fixed;
+  bottom: 2rem;
+  left: 2.5rem;
+}
+
+#toggle input {
+  position: absolute;
+  visibility: hidden;
+}
+
+#toggle label {
+  width: 10rem;
+  height: 4rem;
+
+  background-color: var(#07374a);
+  border: 0.1rem solid var(#f0f0e6);
+  border-radius: 5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#toggle label:hover {
+  cursor: pointer;
+}
+
+#toggle label::before {
+  content: "";
+  display: block;
+
+  width: 3rem;
+  height: 3rem;
+
+  background-color: var(#989A91);
+  border-radius: 50%;
+
+  position: absolute;
+  bottom: 0.5rem;
+  left: 0.6rem;
+  transform: translateX(0);
+
+  transition: 500ms;
+}
+
+#toggle input:checked + label::before {
+  transform: translateX(3.0rem);
+}
+
+body.light-mode nav#navigation a.logo {
+  filter: brightness(0.8);
+}
+
+body.light-mode footer a.logo,
+body.light-mode nav#navigation.scroll a.logo {
+  color: #000;
+}
+
+
+
 
 .home-content .name {
   position: absolute;
@@ -220,7 +284,7 @@ header {
   width: 65%;
 }
 .progress-line .mysql {
-  width: 30%;
+  width: 20%;
 }
 .progress-line .javascript {
   width: 40%;
@@ -262,7 +326,7 @@ header {
   content: "65%";
 }
 .progress-line .mysql::after {
-  content: "30%";
+  content: "20%";
 }
 .progress-line .javascript::after {
   content: "40%";
@@ -314,7 +378,7 @@ header {
 /* ////.....Portfolio......///// */
 
 .portfolio {
-  background: aliceblue;
+  background: #989A91;
   padding: 6rem 0;
 }
 
